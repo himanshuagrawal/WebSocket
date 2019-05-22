@@ -1,5 +1,5 @@
 window.addEventListener('load',function(){
-    let socket = io.connect('http://localhost:4000',{'name':'Himmy'});
+    let socket = io.connect('http://10.150.122.219:4000');
     let btn = document.querySelector('#send');
     let handle = document.querySelector('#handle');
     let message = document.querySelector('#message');
